@@ -2,7 +2,7 @@
 #change this to source file location!
 
 log <- function(...) {
-        cat("[run_analysis.R] ", ..., "\n", sep="")
+        cat("run_analysis:", ..., "\n", sep="")
 }
 
 codebook <- function(...){
